@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #0f172a;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 80px;
+
+    position: sticky;
+    top: 0;
+
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.navbar h2 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 35px;
+}
+
+.navbar li {
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.navbar li:hover {
+    color: #38bdf8;
+}

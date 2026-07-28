@@ -1,0 +1,43 @@
+.hero {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    min-height: 85vh;
+}
+
+.hero img {
+
+    width: 220px;
+    height: 220px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 6px solid white;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+
+    font-size: 3rem;
+
+    color: #0f172a;
+
+    margin-bottom: 15px;
+}
+
+.hero p {
+
+    font-size: 1.3rem;
+
+    color: #64748b;
+}

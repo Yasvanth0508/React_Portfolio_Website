@@ -1,0 +1,16 @@
+#root {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 40px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #0f172a;
+}
